@@ -1,0 +1,111 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+    /* box-sizing:border-box; */
+    width:1920px;
+    height:1018px;
+    background: white;
+    overflow-x: hidden;
+}
+/* header */
+#cabecera{
+    background:#4b4b4d;
+    width:1010px;
+    height:120px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#logo{
+    background:#d2d3d5;
+    width:200px;
+    height:60px;
+    margin-top:30px;
+    margin-left:30px;
+    position:absolute;
+}
+/* redes sociales */
+#social{
+    width:140px;
+    height:40px;
+    margin-top:40px;
+    margin-right:20px;
+    float:right;
+	display:flex;
+	justify-content: space-around;
+}
+.rrss{
+    background: #e6e7e9;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+/* menú */
+nav{
+    background:white;
+    width:1010px;
+    height:50px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    list-style:none;
+}
+ul{
+    float:right;
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+}
+nav li{
+    list-style: none;
+    width:200px;
+    height:50px;
+    background-color:#97989a;
+}
+/* main */
+#container{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+#container section{
+    margin:5px;
+    background:#858688;
+    width: 330px;
+    height: 200px; 
+    display:inline-block;
+}
+/* contenido central */
+#contenido{
+    width: 1010px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 455px;
+    display: flex;
+    background: #858688;
+}
+aside {
+    width: 200px;
+    height: 450px;
+    background: #858688;
+}
+#articulos{
+    background: #4b4b4d;
+    width: 610px;
+    height: 450px;
+    margin-left:auto;
+    margin-right:auto;
+}
+footer{
+    background: #4b4b4d;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1010px;
+    height: 80px; 
+}
+
+
